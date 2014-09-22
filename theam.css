@@ -1,0 +1,96 @@
+audio:not([controls]) {
+    display:none;
+    height:0;
+    }
+
+html {
+    font-family:sans-serif;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+    font-size:62.5%;
+    -webkit-tap-highlight-color:transparent;
+    }
+
+body {
+    font-family:"Open Sans",Helvetica,Arial,sans-serif;
+    font-size:14px;
+    line-height:1.5;
+    color:#413c35;
+    background-color:#f2f2f2;
+    position:relative;
+    margin:0;
+    }
+.banner{
+    background-color: #413C35;
+    font-size: 11px;
+    font-weight: 600;
+    color: #B1B0A7;
+    padding-top: 2px;
+}   
+.banner p{
+    padding-top: 5px;
+    }
+.banner ul>li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 5px 0px 5px;
+}   
+.banner ul>li>a{
+    text-decoration: none;
+    color:#B1B0A7;
+}
+.banner ul>li:hover a{
+    color:#f3f2eb;
+}
+.banner .dropdown-menu {
+    position: absolute;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 60px;
+    padding: 5px 0px;
+    margin: 2px 0px 0px;
+    font-size: 11px;
+    text-align: left;
+    list-style: none outside none;
+    background-color:#413C35;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+    text-decoration: none;
+}
+.banner .dropdown-menu li>a:hover, .banner .dropdown-menu li>a:focus{
+    background-color:#5D564C;
+    color:#B1B0A7;
+}
+.red{
+    color: red;
+}   
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+.move, .move:hover, move:focus, .move:active{
+    color:#71a866;
+    padding: 50px;
+}   
+.move-bar{
+  background: linear-gradient(to bottom, #FFF 0px, #F3F2EB 100%) repeat scroll 0% 0% transparent;
+}   
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > .big > img,
+.carousel-inner > .item > .big > a > img {
+  max-width: 106%;
+}
