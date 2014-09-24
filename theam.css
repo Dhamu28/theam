@@ -94,6 +94,8 @@ body {
 .jumbotron-slide h1,
 .jumbotron-slide .h1 {
   color: inherit;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .jumbotron-slide p {
   margin-bottom: 15px;
@@ -126,7 +128,20 @@ body {
 .banner-bg{
   background: linear-gradient(to bottom, #FFF 0px, #F3F2EB 100%) repeat scroll 0% 0% transparent;
 }   
-.img-brand{
+.banner-bg-content{
+    padding: 25px 0px 25px 25px;
+    transition: all 0.2s linear 0s;
+    color: #B1B0A7;
+    line-height: 1.35;
+    font-size: 16px;
     display: block;
-
 }   
+.banner-bg-content .glyphicon{
+    display: block;
+    font-size: 32px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}   
+.banner-bg-content:hover{
+    color: #413C35;
+}
