@@ -24,14 +24,18 @@ body {
     background-color: #413C35;
     font-size: 11px;
     font-weight: 600;
+    text-align: center;
     color: #B1B0A7;
     padding-top: 2px;
 }   
 .banner p{
     padding-top: 5px;
     }
-.banner ul>li{
-    list-style-type: none;
+.banner ul, ol{
+    margin-left: -45px;
+    }
+.banner ul > li{
+    list-style: none outside none;
     display: inline-block;
     padding: 5px 5px 0px 5px;
 }   
@@ -80,10 +84,6 @@ body {
     width: 100% !important;
     height: 100% !important;
 }
-.img-short{
-    height: 450px;
-    width: 100%;
-}   
 
 .jumbotron-slide {
   padding: 30px;
@@ -126,7 +126,7 @@ body {
   }
 }
 .banner-bg{
-  background: linear-gradient(to bottom, #FFF 0px, #F3F2EB 100%) repeat scroll 0% 0% transparent;
+background: none repeat scroll 0% 0% #F3F2EB;;
 }   
 .banner-bg-content{
     padding: 25px 0px 25px 25px;
