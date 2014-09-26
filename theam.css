@@ -166,14 +166,20 @@ background: none repeat scroll 0% 0% #F3F2EB;;
     background-color: #FFF;
 }   
 .title_circle{
-    display: inline-block;
     background-color: #71A866;
     color:#fff;
     border-radius: 50%;
     padding: 40px 47px;
-    margin-left: 37%;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 60px;
     width: 160px;
     height: 160px;
     text-shadow: 0px 2px 5px rgba(65, 60, 53, 0.25);
+}   
+.img-news{
+    max-width: 25%;
+    max-height: 25%;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }   
