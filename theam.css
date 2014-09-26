@@ -183,3 +183,39 @@ background: none repeat scroll 0% 0% #F3F2EB;;
     margin-bottom: 10px;
     margin-right: 10px;
 }   
+a.slide-left{
+    position:absolute;
+    top:15%;
+    color: #71A866;
+    font-size: 30px;
+    left: 10%;
+}   
+a.slide-right{
+    position:absolute;
+    top:15%;
+    color: #71A866;
+    right: 10%;
+    margin-left: auto;
+    font-size: 30px;
+}
+
+a.slide-left:hover, a.slide-left:focus, a.slide-left:active{
+    color: #009300;
+}   
+a.slide-right:hover, a.slide-right:focus, a.slide-right:active{
+    color: #009300;
+}   
+.slide_team_title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-align: center;
+
+}   
+img.img-slide{
+    width: 75%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: auto;
+    max-width: 80%;
+}   
