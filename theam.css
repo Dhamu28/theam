@@ -226,3 +226,8 @@ img.img-slide{
     background: none repeat scroll 0% 0% #F3F2EB;
     color: #009300;
 }
+.mid_banner > h1, h2:hover{
+-webkit-transform: rotate(0.8deg);
+-ms-transform: rotate(0.8deg);
+transform: rotate(0.8deg);
+}
