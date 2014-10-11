@@ -126,7 +126,7 @@ body {
   }
 }
 .banner-bg{
-background: none repeat scroll 0% 0% #F3F2EB;;
+background: none repeat scroll 0% 0% #F3F2EB;
 }   
 .banner-bg-content{
     padding: 25px 0px 25px 25px;
@@ -219,3 +219,10 @@ img.img-slide{
     margin-right: auto;
     max-width: 80%;
 }   
+.mid_banner{
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: none repeat scroll 0% 0% #F3F2EB;
+    color: #009300;
+}
