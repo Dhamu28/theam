@@ -219,7 +219,7 @@ img.img-slide{
     margin-right: auto;
     max-width: 80%;
 }   
-img.img-slide:hover, img.img-slide:focus {
+img.img-slide img:hover, img.img-slide img:focus {
 -webkit-transform: rotate(360deg);
 -ms-transform: rotate(360deg);
 transform: rotate(360deg);
