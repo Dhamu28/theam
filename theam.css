@@ -219,6 +219,11 @@ img.img-slide{
     margin-right: auto;
     max-width: 80%;
 }   
+img.img-slide:hover, img.img-slide:focus {
+-webkit-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);
+}
 .mid_banner{
     margin-top: 20px;
     padding-top: 40px;
@@ -229,9 +234,4 @@ img.img-slide{
 -webkit-transform: rotate(8deg);
 -ms-transform: rotate(8deg);
 transform: rotate(8deg);
-}
-.img-spin :hover{
--webkit-transform: rotate(360deg);
--ms-transform: rotate(360deg);
-transform: rotate(360deg);
 }
